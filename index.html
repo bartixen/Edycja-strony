@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formatowanie strony (Bartosz Krasoń)</title>
+</head>
+<body>
+    <h1 id="h1">Nagłówek główny</h1>
+    <h2 id="text_changed">[Tekst zmieniany za pomocą pola tekstowego]</h2>
+    <p id="p">Lorem inpsum sit dolar amet...</p>
+    <hr><br>
+    ⫸ Zmień kolor strony
+    <button id="button_red">Czerwony</button> <button id="button_green">Zielony</button> <button id="button_blue">Niebieski</button>
+    <br><br>⫸ Zmień krój czcionki
+    <select id="text_select">
+        <option value="serif">Serif</option>
+        <option value="tahoma">Tahoma</option>
+        <option value="courier">Courier</option>
+        <option value="garamond">Garamond</option>
+        <option value="arial">Arial</option>
+        <option value="consolas">Consolas</option>
+    </select>
+    <br><br>
+    ⫸ Formatowanie h1
+    <input type="radio" name="h1_select" value="none" checked> normalny <input type="radio" name="h1_select" value="underline"> podkreślenie <input type="radio" name="h1_select" value="line-through"> przekreślenie
+    <br><br>
+    ⫸ Formatowanie akapitu (rozmiar wcięcia)
+    <input type="number" placeholder="5" id="input_indent">
+    <br><br>
+    ⫸ Zmienianie tekstu
+    <input type="text" placeholder="Wpisz tekst" id="input_changed">
+    <script src="script.js"></script>
+</body>
+</html>
